@@ -469,6 +469,12 @@ strong {
   top: 8px;
 }
 
+.navbar-logo {
+  height: 50px; /* Ajuste conforme necessário */
+  width: auto;
+  max-width: 150px; /* Para evitar que fique muito grande */
+}
+
 
 /*---------------------------------------
   HERO        
