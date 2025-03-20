@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>EIFFEL VIP CAR - Carros premium para Casamentos e Eventos</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-festava-live.css" rel="stylesheet">
+
+        <style>
+            .whatsapp-button {
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              width: 60px;
+              height: 60px;
+              background-color: #25D366;
+              border-radius: 50%;
+              box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              z-index: 1000;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+              overflow: hidden; 
+            }
+          
+            .whatsapp-button:hover {
+              transform: scale(1.1);
+              box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+            }
+          
+            .whatsapp-button img {
+              width: 90%;
+              height: 90%;
+              object-fit: cover; 
+              border-radius: 50%; 
+            }
+          </style>
+
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: auto;
+        padding: 20px;
+    }
+    .modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 90%;
+        max-width: 600px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    .close {
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .form-control {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+</style>
+        
+    </head>
+    
+    <body>
+
+        <main>
+
+            <header class="site-header">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-12 col-12 d-flex flex-wrap">
+                            <p class="d-flex me-4 mb-0">
+                                <i class="bi-person custom-icon me-2"></i>
+                                <strong class="text-dark">Reserve agora mesmo</strong>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand">
+                        EIFFEL VIP CAR
+                    </a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Início</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Serviços</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Veículos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Pacotes</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Endereço</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section" id="section_1">
+                <div class="section-overlay"></div>
+
+                <div class="container d-flex justify-content-center align-items-center">
+                    <div class="row">
+
+                        <div class="col-12 mt-auto mb-5 text-center">
+                            
+                            <h1 class="custom-title">A realização do seu sonho</h1>
+
+                            <a class="btn custom-btn smoothscroll" id="openFormButton">QUERO RESERVAR MEU VEÍCULO</a>
+                        </div>
+
+                            <div class="social-share">
+                                <ul class="social-icon d-flex align-items-center justify-content-center">
+                                    <span class="text-white me-3">Conheça nosso Instagram</span>
+
+                                    <li class="social-icon-item">
+                                        <a href="https://www.instagram.com/eiffelvipcar/" class="social-icon-link">
+                                            <span class="bi-instagram"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-wrap">
+                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
+                        <source src="video/eiffel-hero.mp4" type="video/mp4">
+                        O seu navegador não suporta a tag de vídeo :|
+                    </video>
+                </div>
+            </section>
+
+
+            <section class="about-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                            <div class="services-info">
+                                <h2 class="text-black mb-4">Serviço Exclusivo de Carros Premium para Noivos</h2>
+
+                                <p class="text-black">O transporte dos noivos é um detalhe essencial na organização do casamento, e a EIFFEL VIP CAR oferece uma experiência única e sofisticada, sem comprometer seu orçamento.
+
+                                    Mais do que um simples deslocamento, nosso serviço proporciona exclusividade e praticidade, evitando que um familiar ou convidado precise assumir essa responsabilidade. Mas os benefícios vão além:
+                                </p>
+
+                                <h6 class="text-black mt-4">Momento exclusivo para fotos e filmagens</h6>
+
+                                <p class="text-black">Seu álbum de casamento ganhará um toque especial com registros ao lado de um veículo elegante, agregando charme e sofisticação ao ensaio externo.</p>
+
+                                <h6 class="text-black mt-4">Placa personalizada como lembrança eterna</h6>
+
+                                <p class="text-black">Uma placa de alumínio exclusiva, com os nomes dos noivos e a data do casamento, pode ser utilizada no carro durante a chegada ao local da cerimônia ou nas fotos protocolares. Após o evento, ela se torna um item especial de decoração para o lar do casal.</p>
+                            
+                                <h6 class="text-black mt-4">Serviço Personalizado</h6>
+
+                                <p class="text-black">
+                                    A EIFFEL VIP CAR disponibiliza quatro categorias de serviço para atender diferentes preferências e necessidades:
+                                    ✅ EXPRESS | ✅ CLASSIC | ✅ GOLD | ✅ VIP
+                                </p>
+                            
+                                <p class="text-black">Independentemente da opção escolhida, garantimos atendimento personalizado, conforto, segurança e confiança para tornar seu grande dia ainda mais inesquecível.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="about-text-wrap">
+                                <img src="images/services-details.jpg" class="about-image img-fluid">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="artists-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">Veículos Exclusivos</h1>
+                        </div>
+
+                        <div class="row d-flex flex-wrap">
+                            <div class="col-lg-6 col-12">
+                                <div class="artists-thumb">
+                                    <div class="artists-image-wrap">
+                                        <img src="images/cars/jaguar-black.jpg" class="artists-image img-fluid">
+                                    </div>
+                        
+                                    <div class="artists-hover">
+                                        <p><strong>Modelo</strong> Jaguar XF</p>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-lg-6 col-12">
+                                <div class="artists-thumb">
+                                    <div class="artists-image-wrap">
+                                        <img src="images/cars/jaguar-white.jpg" class="artists-image img-fluid">
+                                    </div>
+                        
+                                    <div class="artists-hover">
+                                        <p><strong>Modelo</strong> Jaguar XE</p>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="pricing-section section-padding section-bg" id="section_4">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="text-center mb-4">Pacotes</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row d-flex justify-content-center">
+                        <!-- Pacote EXPRESS -->
+                        <div class="col-lg-3 col-md-6 col-12 d-flex">
+                            <div class="pricing-thumb flex-fill">
+                                <h3>PACOTE EXPRESS</h3>
+                                <p>
+                                    Percurso considerando um único destino (Incluso Motorista Particular).
+                                    Solicite seu Orçamento (valores sob consulta conforme distância entre percursos e tempo total de serviço com até 2 horas de duração).
+                                </p>
+                                
+                            </div>
+                        </div>
+            
+                        <!-- Pacote CLASSIC -->
+                        <div class="col-lg-3 col-md-6 col-12 d-flex">
+                            <div class="pricing-thumb flex-fill">
+                                <h3>PACOTE CLASSIC</h3>
+                                <p>
+                                    Salão Dia da Noiva + Local Cerimônia/Recepção/Festa + Brinde Cortesia (Incluso Motorista Particular).
+                                    Solicite seu Orçamento (valores conforme distância entre percursos e tempo total de serviço com até 3 horas de duração).
+                                </p>
+                               
+                            </div>
+                        </div>
+            
+                        <!-- Pacote GOLD -->
+                        <div class="col-lg-3 col-md-6 col-12 d-flex">
+                            <div class="pricing-thumb flex-fill">
+                                <h3>PACOTE GOLD</h3>
+                                <p>
+                                    Salão Dia da Noiva + Local Cerimônia + Local Recepção + Brinde Cortesia (Incluso Motorista Particular).
+                                    Solicite seu Orçamento (valores conforme distância entre percursos e tempo total de serviço com até 4 horas de duração).
+                                </p>
+                                
+                            </div>
+                        </div>
+            
+                        <!-- Pacote VIP -->
+                        <div class="col-lg-3 col-md-6 col-12 d-flex">
+                            <div class="pricing-thumb flex-fill">
+                                <h3>PACOTE VIP</h3>
+                                <p>
+                                    Salão Dia da Noiva + Local Cerimônia + Local Recepção + Noite de Núpcias (hotel ou aeroporto).
+                                    Solicite seu Orçamento (valores conforme distância entre percursos e tempo total de serviço com até 8 horas de duração).
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Estilos Atualizados -->
+            <style>
+                .pricing-thumb {
+                    border: 5px dotted var(--dark-color);
+                    border-radius: var(--border-radius-medium);
+                    position: relative;
+                    padding: 30px;
+                    background: #fff;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    height: 100%;
+                }
+                .pricing-thumb h3 {
+                    color: #333;
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                .pricing-thumb p {
+                    font-size: 14px;
+                    color: #666;
+                    flex-grow: 1;
+                }
+                .btn-primary {
+                    background-color: var(--secondary-color);
+                    color: black;
+                    border: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    margin-top: 15px;
+                }
+                .btn-primary:hover {
+                    background-color: var(--primary-color);
+                }
+                .pricing-tag {
+                    background-color: var(--secondary-color);
+                    border-radius: var(--border-radius-large);
+                    color: var(--white-color);
+                    font-weight: var(--font-weight-bold);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 120px;
+                    height: 120px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    margin: 20px;
+                }
+                .pricing-tag span {
+                    font-size: 180%;
+                    line-height: normal;
+                }
+            </style>
+            
+            <section class="contact-section section-padding" id="section_5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h2 class="text-center mb-4">Nosso Endereço</h2>
+                            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-Map" role="tabpanel" aria-labelledby="nav-Map-tab">
+                                    <div class="map-responsive">
+                                        <iframe 
+                                            src="https://www.google.com/maps?q=R.+Rel%C3%ADquia,+758+-+Casa+Verde,+S%C3%A3o+Paulo+-+SP,+02517-001&output=embed" 
+                                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer class="site-footer">
+            <div class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="text-black mb-lg-0">EIFFEL VIP CAR</h2>
+                        </div>
+
+                        <div class="col-lg-6 col-12 d-flex justify-content-lg-end align-items-center">
+                            <ul class="social-icon d-flex justify-content-lg-end">
+                                <li class="social-icon-item">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 col-12 mb-4 pb-2">
+                        <h5 class="site-footer-title mb-3">Links</h5>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#section_1" class="site-footer-link">Início</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_2" class="site-footer-link">Serviços</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_3" class="site-footer-link">Veículos</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_4" class="site-footer-link">Pacotes</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_5" class="site-footer-link">Endereço</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <h5 class="site-footer-title mb-3">Dúvidas?</h5>
+
+                        <p class="text-white d-flex mb-1">
+                            <a class="site-footer-link">
+                                Entre em contato pelo nosso WhatsApp: +55 (11) 9817-64915
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
+                        <h5 class="site-footer-title mb-3">Endereço</h5>
+
+                        <p class="text-white d-flex mt-3 mb-2">
+                            R. Relíquia, 758 - Casa Verde, São Paulo - SP, 02517-001
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-12 mt-5">
+                            <p class="copyright-text">Copyright © 2025 Eiffel Vip Car</p>
+                        </div>
+
+                        <div class="col-lg-8 col-12 mt-lg-5">
+                            <ul class="site-footer-links">
+                                <li class="site-footer-link-item">
+                                    <a href="#" class="site-footer-link">Política de Privacidade</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+<!-- Modal do Formulário -->
+<div id="formModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="form-title">Reserve agora mesmo!</h2>
+        <div id="form-container">
+            <form id="contact-form" class="custom-form contact-form">
+                <div class="contact-form-body">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <label for="contact-name">Nome Completo</label>
+                            <input type="text" name="name" id="contact-name" class="form-control" maxlength="100" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <label for="contact-ddd">DDD</label>
+                            <select name="ddd" id="contact-ddd" class="form-control" required>
+                                <option value="">DDD</option>
+                                <option value="11">11 - São Paulo</option>
+                                <option value="12">12 - Vale do Paraíba</option>
+                                <option value="13">13 - Baixada Santista</option>
+                                <option value="14">14 - Bauru e região</option>
+                                <option value="15">15 - Sorocaba e região</option>
+                                <option value="16">16 - Ribeirão Preto</option>
+                                <option value="17">17 - São José do Rio Preto</option>
+                                <option value="18">18 - Presidente Prudente</option>
+                                <option value="19">19 - Campinas e região</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <label for="contact-whatsapp">WhatsApp</label>
+                            <input type="tel" name="whatsapp" id="contact-whatsapp" class="form-control" maxlength="100" required>
+                        </div>
+                    </div>
+                    
+                    <label for="contact-event">Tipo de Evento</label>
+                    <select name="event" id="contact-event" class="form-control" required>
+                        <option value="">Selecione</option>
+                        <option value="debutante">Aniversário</option>
+                        <option value="casamento">Casamento</option>
+                        <option value="debutante">Debutante</option>
+                        <option value="traslado">Traslado Executivo</option>
+                        <option value="corporativo">Evento Corporativo</option>
+                    </select>
+                    
+                    <label for="contact-date">Data do Evento (DD/MM/AAAA)</label>
+                    <input type="text" name="date" id="contact-date" class="form-control" placeholder="DD/MM/AAAA" required>
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <label for="contact-location">CEP do Evento</label>
+                            <input type="text" name="location" id="contact-location" class="form-control" maxlength="100" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <label for="contact-number">Número</label>
+                            <input type="text" name="number" id="contact-number" class="form-control" maxlength="5" required>
+                        </div>
+                    </div>
+                    
+                    <label for="contact-time">Horário do Evento</label>
+                    <input type="time" name="time" id="contact-time" class="form-control" required>
+                                         
+                    <label for="contact-message">Comentários ou Pedidos Especiais</label>
+                    <textarea name="message" rows="3" class="form-control" id="contact-message" maxlength="500"></textarea>
+                    
+                    <!-- Termo de Consentimento -->
+                    <p class="privacy-disclaimer mt-3">Ao submeter o formulário, você concorda com a nossa <a href="sua_pagina_de_politica.html" target="_blank">Política de Privacidade</a>.</p>
+                    
+                    <div class="col-lg-4 col-md-10 col-8 mx-auto">
+                        <button type="submit" id="submit-btn" class="form-control">
+                            Reservar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <p id="response-message" class="success-message"></p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init("boUm9b_9XJDK8kqeq"); // Substitua por sua chave pública do EmailJS
+
+    document.getElementById("contact-form").addEventListener("submit", async function(event) {
+        event.preventDefault(); // Evita o recarregamento da página
+        
+        let submitBtn = document.getElementById("submit-btn");
+        let formContainer = document.getElementById("form-container");
+        let responseMessage = document.getElementById("response-message");
+        let cep = document.getElementById("contact-location").value;
+        
+        // Substituir o texto do botão por um ícone de carregamento
+        submitBtn.innerHTML = '<span class="loader"></span>';
+        submitBtn.disabled = true;
+        
+        try {
+            // Consultar API do ViaCEP
+            let cepResponse = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+            let cepData = await cepResponse.json();
+            
+            if (cepData.erro) {
+                throw new Error("CEP inválido.");
+            }
+            
+            let formData = {
+                name: document.getElementById("contact-name").value,
+                ddd: document.getElementById("contact-ddd").value,
+                whatsapp: document.getElementById("contact-whatsapp").value,
+                event: document.getElementById("contact-event").value,
+                date: document.getElementById("contact-date").value,
+                location: cepData.logradouro + ", " + cepData.bairro + ", " + cepData.localidade + " - " + cepData.uf,
+                number: document.getElementById("contact-number").value,
+                time: document.getElementById("contact-time").value,
+                message: document.getElementById("contact-message").value
+            };
+            
+            // Configuração do EmailJS usando a nova autenticação (2025)
+            emailjs.send("service_0qgrbts", "template_o55yf3d", formData)
+                .then(function(response) {
+                    formContainer.style.display = "none";
+                    responseMessage.innerHTML = "<p style='color: green;'>Reserva enviada! Logo entraremos em contato.</p>";
+                })
+                .catch(function(error) {
+                    responseMessage.innerHTML = "<p style='color: red;'>Erro ao enviar reserva. Tente novamente.</p>";
+                    submitBtn.innerHTML = "Reservar";
+                    submitBtn.disabled = false;
+                });
+        } catch (error) {
+            responseMessage.innerHTML = `<p style='color: red;'>${error.message}</p>`;
+            submitBtn.innerHTML = "Reservar";
+            submitBtn.disabled = false;
+        }
+    });
+
+    // Adicionando estilo para o loader
+    let style = document.createElement("style");
+    style.innerHTML = `
+        .loader {
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #3498db;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    `;
+    document.head.appendChild(style);
+</script>
+    
+
+<script>
+    function restrictInput(event, pattern) {
+        let input = event.target;
+        input.value = input.value.replace(pattern, "");
+    }
+
+    document.getElementById("contact-name").addEventListener("input", function(event) {
+        restrictInput(event, /[^A-Za-zÀ-ÖØ-öø-ÿ ]/g);
+    });
+    
+    document.getElementById("contact-whatsapp").addEventListener("input", function(event) {
+        restrictInput(event, /\D/g);
+    });
+    
+    document.getElementById("contact-location").addEventListener("input", function(event) {
+        restrictInput(event, /\D/g);
+    });
+    
+    document.getElementById("contact-number").addEventListener("input", function(event) {
+        restrictInput(event, /\D/g);
+    });
+</script>
+
+<!-- Script para controlar o modal -->
+<script>
+    document.getElementById("openFormButton").onclick = function() {
+        document.getElementById("formModal").style.display = "flex";
+    };
+    document.querySelector(".close").onclick = function() {
+        document.getElementById("formModal").style.display = "none";
+    };
+    window.onclick = function(event) {
+        if (event.target === document.getElementById("formModal")) {
+            document.getElementById("formModal").style.display = "none";
+        }
+    };
+    </script>
+
+<!-- Formatar data no modal -->
+<script>
+    document.getElementById("contact-date").addEventListener("input", function (e) {
+        let value = e.target.value.replace(/\D/g, "");
+        if (value.length > 2) value = value.slice(0, 2) + "/" + value.slice(2);
+        if (value.length > 5) value = value.slice(0, 5) + "/" + value.slice(5, 9);
+        e.target.value = value;
+    });
+    </script>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/5511981764915" class="whatsapp-button" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
