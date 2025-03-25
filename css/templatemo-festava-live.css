@@ -349,17 +349,6 @@ video-wrap {
   }
 }
 
-
-/*---------------------------------------
-  SITE HEADER              
------------------------------------------*/
-.site-header {
-  background-color: var(--primary-color);
-  padding-top: 12px;
-  padding-bottom: 12px;
-}
-
-
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
@@ -368,7 +357,6 @@ video-wrap {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 51px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -542,7 +530,7 @@ video-wrap {
 
 .stars .material-icons {
   font-size: 2rem;
-  color: gold;
+  color: black;
 }
 
 .review-title {
@@ -979,6 +967,11 @@ video-wrap {
 }
 
 /* Plans */
+
+.pricing-rating {
+  padding-bottom: 5px; /* ajuste conforme o visual desejado */
+}
+
 .pricing-thumb {
   border: 5px dotted var(--dark-color);
   border-radius: var(--border-radius-medium);
